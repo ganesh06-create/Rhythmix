@@ -4,15 +4,26 @@ const { getSongs } = require("./readJson");
 
 const router = express.Router();
 
+
 function matchField(value, query) {
+
+    if (value === null || value === undefined) {
+        return false;
+    }
+
     if (Array.isArray(value)) {
-        return value.some(item =>
-            String(item).toLowerCase().includes(query)
+        return value.some(item => matchField(item, query));
+    }
+
+    if (typeof value === "object") {
+        return Object.values(value).some(item =>
+            matchField(item, query)
         );
     }
 
-    return String(value || "").toLowerCase().includes(query);
+    return String(value).toLowerCase().includes(query);
 }
+
 
 // Common Search Function
 async function searchSongs(query) {

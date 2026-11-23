@@ -2,9 +2,6 @@ const sidebar = document.querySelector(".sidebar");
 const sidebarButton = document.getElementById("sidebar-viwer-lines");
 const backButton = document.getElementById("backbtn");
 
-const searchInput = document.getElementById("songSearch");
-const searchBar = document.querySelector(".searchbar");
-
 const menuItems = document.querySelectorAll(".menu-item");
 const container = document.querySelector(".container");
 
@@ -66,6 +63,11 @@ document.addEventListener("keydown", (event) => {
 // SEARCH BAR
 // ------------------------------
 
+const searchInput = document.getElementById("songSearch");
+const searchBar = document.querySelector(".searchbar");
+const searchResult = document.querySelector(".search-result");
+
+
 if (searchInput && searchBar) {
     searchInput.addEventListener("focus", () => {
         searchBar.classList.add("searchbar-focus");
@@ -76,9 +78,15 @@ if (searchInput && searchBar) {
     });
 }
 
+
 searchInput.addEventListener("input", async () => {
 
-    const message = searchInput.value;
+    const message = searchInput.value.trim();
+
+    if (!message) {
+        searchResult.innerHTML = "";
+        return;
+    }
 
     try {
         const response = await fetch("/api/search", {
@@ -93,7 +101,28 @@ searchInput.addEventListener("input", async () => {
 
         const data = await response.json();
 
-        console.log(data);
+        if (!data.success) {
+            searchResult.innerHTML = "";
+            return;
+        }
+
+        searchResult.innerHTML = data.songs.map(song => `
+            <div class="search-result-song-card">
+
+                <div class="song-cover">
+                    <img class="song-cover-img"
+                        src="${song.coverImage}">
+                </div>
+
+                <div class="song-details">
+                    <h2>${song.title}</h2>
+                    <p>${Array.isArray(song.artists)
+                        ? song.artists.join(", ")
+                        : song.artists}</p>
+                </div>
+
+            </div>
+        `).join("");
 
     } catch (error) {
         console.error(error);
