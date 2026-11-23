@@ -1,0 +1,74 @@
+[
+  {
+    "id": "song_001",
+    "title": "Bairan",
+    "artists": ["Banjaare"],
+    "album": "Bairan",
+    "language": ["Haryanvi"],
+    "categories": {
+      "genre": ["Indian Folk", "Regional Pop", "Indie Folk"],
+      "mood": ["Romantic", "Emotional", "Sad", "Heartbreak"],
+      "theme": ["Love", "Separation", "Longing"],
+      "type": ["Vocal", "Regional"],
+      "occasion": ["Travel", "Relaxing"]
+    },
+    "releaseYear": 2026,
+    "duration": null,
+    "audio": "database/songs/bairan.m4a",
+    "coverImage": null
+  },
+  {
+    "id": "song_002",
+    "title": "Dooron Dooron",
+    "artists": ["Paresh Pahuja"],
+    "album": "Dooron Dooron",
+    "language": ["Hindi"],
+    "categories": {
+      "genre": ["Indie Pop", "Pop", "Indian Indie"],
+      "mood": ["Romantic", "Calm", "Dreamy", "Feel Good"],
+      "theme": ["Love", "Distance", "Longing"],
+      "type": ["Vocal", "Indie"],
+      "occasion": ["Night Drive", "Travel", "Relaxing"]
+    },
+    "releaseYear": 2022,
+    "duration": null,
+    "audio": "database/songs/dooron-dooron.m4a",
+    "coverImage": null
+  },
+  {
+    "id": "song_003",
+    "title": "Ganga Ke Kinare",
+    "artists": ["Bunny", "Sagar"],
+    "album": "Ganga Ke Kinare",
+    "language": ["Hindi"],
+    "categories": {
+      "genre": ["Indian Pop"],
+      "mood": ["Calm", "Peaceful", "Feel Good"],
+      "theme": ["Nature", "Travel", "Rivers"],
+      "type": ["Vocal"],
+      "occasion": ["Travel", "Relaxing"]
+    },
+    "releaseYear": 2026,
+    "duration": null,
+    "audio": "database/songs/ganga-ke-kinare.mp3",
+    "coverImage": null
+  },
+  {
+    "id": "song_004",
+    "title": "Kesariya",
+    "artists": ["Arijit Singh"],
+    "album": "Brahmastra",
+    "language": ["Hindi", "Sanskrit"],
+    "categories": {
+      "genre": ["Bollywood", "Indian Film Music", "Romantic Pop"],
+      "mood": ["Romantic", "Emotional", "Dreamy", "Feel Good"],
+      "theme": ["Love", "Devotion", "Romance"],
+      "type": ["Vocal", "Movie Soundtrack"],
+      "occasion": ["Wedding", "Romantic Evening", "Relaxing"]
+    },
+    "releaseYear": 2022,
+    "duration": null,
+    "audio": "database/songs/kesariya-brahmastra.m4a",
+    "coverImage": null
+  }
+]
