@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rhythmix</title>
+
+    <link rel="stylesheet" href="css/layout.css">
+</head>
+
+<body>
+    <div class="screen">
+        <aside class="sidebar">
+            <div class="sidebar-top">
+                <b id="backbtn">
+                    <img src="../public/assets/backBtn.svg" alt="back">
+                </b>
+                <h2><i>Rhythmix</i></h2>
+            </div>
+            <hr>
+
+            <div class="sidebar-menu">
+                <ul>
+                    <li class="active-menu menu-item" data-page="home">
+                        <img src="assets/home.svg" alt="">
+                        Home
+                    </li>
+                    <li class="menu-item" data-page="Library">
+                        <img src="assets/library.svg" alt="">
+                        Library
+                    </li>
+                    <li class="menu-item" data-page="Profile">
+                        <img src="assets/profile.svg" alt="">
+                        Profile
+                    </li>
+                    <li class="menu-item" data-page="Settings">
+                        <img src="assets/settings.svg" alt="">
+                        Settings
+                    </li>
+                </ul>
+            </div>
+        </aside>
+
+        <main class="main">
+            <nav class="main-top">
+                <img id="sidebar-viwer-lines" src="assets/three_lines.svg" alt="">
+                <div class="searchbar">
+                    <img src="assets/search_icon.svg" alt="icon">
+                    <input type="search" id="songSearch" placeholder="Search songs">
+                </div>
+
+                <div id="notification">
+                    <img src="assets/notification.svg" alt="notification">
+                </div>
+            </nav>
+
+            <!-- <div class="container"></div> -->
+
+            <div class="container">
+                <%- include("pages/" + page) %>
+            </div>
+
+
+        </main>
+
+        <div class="playbar">
+            <div class="song-info">
+                <div class="song-info">
+                    <img id="current-song-image"
+                        src="https://c.saavncdn.com/493/Kesariya-Audio-Teaser-From-Brahmastra--Hindi-2022-20220414173718-500x500.jpg"
+                        alt="">
+
+                    <div class="song-details">
+                        <p id="current-song-title">No Song Playing</p>
+                        <span id="current-song-artist">Unknown Artist</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="song-controller">
+                <div class="controls">
+                    <button id="shuffle" class="control-icons">
+                        <img src="assets/shuffle.svg" alt="">
+                    </button>
+                    <button id="previous" class="control-icons">
+                        <img src="assets/previous.svg" alt="">
+                    </button>
+                    <button id="play" class="control-icons pause">
+                        <img src="assets/playBtn.svg" alt="">
+                    </button>
+                    <button id="next" class="control-icons">
+                        <img src="assets/next.svg" alt="">
+                    </button>
+                    <button id="repeat" class="control-icons">
+                        <img src="assets/repeat.svg" alt="">
+                    </button>
+                </div>
+                <div class="duration">
+                    <span id="played-time">00:00</span>
+                    <div id="time-line-outer">
+                        <div id="time-line-inner"></div>
+                    </div>
+                    <span id="total-time">00:00</span>
+                </div>
+
+            </div>
+
+
+            <div class="audio-controller">
+                <div class="audio-controller">
+                    <button id="mute-btn" class="volume-btn">
+                        <img src="assets/volume.svg" alt="Volume">
+                    </button>
+
+                    <input type="range" id="volume-slider" min="0" max="100" value="70">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/layout.js"></script>
+    <script src="js/playbar.js"></script>
+</body>
+
+</html>

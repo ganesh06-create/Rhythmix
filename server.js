@@ -21,7 +21,9 @@ app.set("views", path.join(__dirname, "views"));
 
 // Routes
 app.get("/", (req, res) => {
-    res.send("Hello");
+    res.render("index",
+        { page: "home.ejs" }
+    );
 });
 
 module.exports = app;
