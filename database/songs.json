@@ -14,8 +14,8 @@
     },
     "releaseYear": 2026,
     "duration": null,
-    "audio": "database/songs/bairan.m4a",
-    "coverImage": null
+    "audio": "/songs/bairan.m4a",
+    "coverImage": "https://i.scdn.co/image/ab67616d0000b273cdce9a38222807fa703b4396"
   },
   {
     "id": "song_002",
@@ -32,8 +32,8 @@
     },
     "releaseYear": 2022,
     "duration": null,
-    "audio": "database/songs/dooron-dooron.m4a",
-    "coverImage": null
+    "audio": "/songs/dooron-dooron.m4a",
+    "coverImage": "https://c.saavncdn.com/615/Dooron-Dooron-Punjabi-2022-20220124231445-500x500.jpg"
   },
   {
     "id": "song_003",
@@ -50,8 +50,8 @@
     },
     "releaseYear": 2026,
     "duration": null,
-    "audio": "database/songs/ganga-ke-kinare.mp3",
-    "coverImage": null
+    "audio": "/songs/ganga-ke-kinare.mp3",
+    "coverImage": "https://i.scdn.co/image/ab67616d0000b2731cfa25bf89dbf55d72da3dba"
   },
   {
     "id": "song_004",
@@ -68,7 +68,7 @@
     },
     "releaseYear": 2022,
     "duration": null,
-    "audio": "database/songs/kesariya-brahmastra.m4a",
+    "audio": "/songs/kesariya-brahmastra.m4a",
     "coverImage": "https://c.saavncdn.com/493/Kesariya-Audio-Teaser-From-Brahmastra--Hindi-2022-20220414173718-500x500.jpg"
   }
 ]

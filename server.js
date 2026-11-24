@@ -11,6 +11,7 @@ app.use(express.urlencoded({ extended: true }));
 
 // Router
 app.use("/api", songApi);
+app.use("/songs", express.static(path.join(__dirname, "database/songs")));
 
 // Static files
 app.use(express.static(path.join(__dirname, "public")));

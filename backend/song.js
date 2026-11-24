@@ -75,7 +75,7 @@ router.get("/src", async (req, res) => {
         res.json({
             success: true,
             total: result.length,
-            songs: result
+            songs: result.slice(0, 1)
         });
 
     } catch (error) {
@@ -103,7 +103,7 @@ router.post("/search", async (req, res) => {
         res.json({
             success: true,
             total: result.length,
-            songs: result
+            songs: result.slice(0, 15)
         });
 
     } catch (error) {

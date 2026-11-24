@@ -3,7 +3,7 @@
 
 const audio = new Audio();
 
-audio.src = "/database/songs/bairan.m4a";
+audio.src = "/songs/bairan.m4a";
 audio.volume = 0.7;
 
 
