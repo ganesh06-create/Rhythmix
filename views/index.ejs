@@ -586,6 +586,143 @@
         .sond-details p {
             color: rgba(255, 255, 255, 0.736);
         }
+
+        /* ------------------------------------------------------------------------------------------------------------------------------- */
+
+
+        .home-wrapper {
+            width: 100%;
+            padding: 10px 20px;
+        }
+
+        .greeting {
+            margin-top: 25px;
+            font-size: 28px;
+            font-weight: 600;
+            margin-bottom: 25px;
+        }
+
+        .greeting span {
+            color: #1DB954;
+        }
+
+        .section-title {
+            font-size: 20px;
+            margin: 25px 0 15px 0;
+            font-weight: 600;
+        }
+
+        .card-row {
+            width: 100%;
+            display: flex;
+            gap: 18px;
+            overflow-x: auto;
+            padding-bottom: 10px;
+            scrollbar-width: none;
+            -ms-overflow-style: none;
+        }
+
+        .card-row::-webkit-scrollbar {
+            display: none;
+        }
+
+        .music-card {
+            min-width: 160px;
+            background-color: rgba(255, 255, 255, .05);
+            border: 1px solid rgba(255, 255, 255, .08);
+            border-radius: 12px;
+            padding: 14px;
+            cursor: pointer;
+            transition: background-color .2s ease, transform .2s ease;
+        }
+
+        .music-card:hover {
+            background-color: rgba(255, 255, 255, .1);
+            transform: translateY(-3px);
+        }
+
+        .music-card-img {
+            width: 100%;
+            height: 130px;
+            border-radius: 8px;
+            background: linear-gradient(135deg, #1DB954, #145a32);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 34px;
+            margin-bottom: 10px;
+        }
+
+        .music-card-title {
+            font-size: 15px;
+            font-weight: 500;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .music-card-sub {
+            font-size: 12px;
+            color: #aaaaaa;
+            margin-top: 3px;
+        }
+
+        .quick-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            gap: 12px;
+        }
+
+        .quick-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            background-color: rgba(255, 255, 255, .05);
+            border-radius: 8px;
+            padding: 8px;
+            cursor: pointer;
+            transition: background-color .2s ease;
+        }
+
+        .quick-item:hover {
+            background-color: rgba(255, 255, 255, .1);
+        }
+
+        .quick-item-icon {
+            width: 45px;
+            height: 45px;
+            border-radius: 6px;
+            background: linear-gradient(135deg, #333, #111);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            flex-shrink: 0;
+        }
+
+        .quick-item-text {
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        @media (max-width: 720px) {
+
+            .main {
+                padding: 10px;
+            }
+
+            .quick-list {
+                grid-template-columns: 1fr;
+            }
+
+            .home-wrapper {
+                padding: 10px;
+            }
+
+            .greeting {
+                font-size: 22px;
+            }
+        }
     </style>
 </head>
 
@@ -642,6 +779,79 @@
 
                 <div class="page-content">
                     <%- include("pages/" + page) %>
+
+                        <div class="home-wrapper">
+                            <div class="greeting">Good to see you, <span>Music Lover</span> 🎶</div>
+
+                            <div class="section-title">Quick Picks</div>
+                            <div class="quick-list">
+                                <div class="quick-item">
+                                    <div class="quick-item-icon">🔥</div>
+                                    <div class="quick-item-text">Liked Songs</div>
+                                </div>
+                                <div class="quick-item">
+                                    <div class="quick-item-icon">🎤</div>
+                                    <div class="quick-item-text">Top Artists</div>
+                                </div>
+                                <div class="quick-item">
+                                    <div class="quick-item-icon">🕒</div>
+                                    <div class="quick-item-text">Recently Played</div>
+                                </div>
+                                <div class="quick-item">
+                                    <div class="quick-item-icon">📻</div>
+                                    <div class="quick-item-text">Discover Radio</div>
+                                </div>
+                            </div>
+
+                            <div class="section-title">Recently Played</div>
+                            <div class="card-row">
+                                <div class="music-card">
+                                    <div class="music-card-img">🎵</div>
+                                    <div class="music-card-title">Song Title One</div>
+                                    <div class="music-card-sub">Artist Name</div>
+                                </div>
+                                <div class="music-card">
+                                    <div class="music-card-img">🎧</div>
+                                    <div class="music-card-title">Song Title Two</div>
+                                    <div class="music-card-sub">Artist Name</div>
+                                </div>
+                                <div class="music-card">
+                                    <div class="music-card-img">🎸</div>
+                                    <div class="music-card-title">Song Title Three</div>
+                                    <div class="music-card-sub">Artist Name</div>
+                                </div>
+                                <div class="music-card">
+                                    <div class="music-card-img">🎹</div>
+                                    <div class="music-card-title">Song Title Four</div>
+                                    <div class="music-card-sub">Artist Name</div>
+                                </div>
+                            </div>
+
+                            <div class="section-title">Made For You</div>
+                            <div class="card-row">
+                                <div class="music-card">
+                                    <div class="music-card-img">💿</div>
+                                    <div class="music-card-title">Chill Vibes</div>
+                                    <div class="music-card-sub">Playlist</div>
+                                </div>
+                                <div class="music-card">
+                                    <div class="music-card-img">🌙</div>
+                                    <div class="music-card-title">Late Night Beats</div>
+                                    <div class="music-card-sub">Playlist</div>
+                                </div>
+                                <div class="music-card">
+                                    <div class="music-card-img">☀️</div>
+                                    <div class="music-card-title">Morning Boost</div>
+                                    <div class="music-card-sub">Playlist</div>
+                                </div>
+                                <div class="music-card">
+                                    <div class="music-card-img">⚡</div>
+                                    <div class="music-card-title">Workout Mix</div>
+                                    <div class="music-card-sub">Playlist</div>
+                                </div>
+                            </div>
+                        </div>
+
                 </div>
 
             </div>
@@ -652,12 +862,10 @@
         <div class="playbar">
             <div class="song-info">
                 <div class="song-info">
-                    <img id="current-song-image"
-                        src=""
-                        alt="">
+                    <img id="current-song-image" src="" alt="">
 
                     <div class="song-details">
-                        <p id="current-song-title">No Song Playing</p>
+                        <h2 id="current-song-title">No Song Playing</h2>
                         <span id="current-song-artist">Unknown Artist</span>
                     </div>
                 </div>
