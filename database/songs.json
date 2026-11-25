@@ -70,5 +70,313 @@
     "duration": null,
     "audio": "/songs/kesariya-brahmastra.m4a",
     "coverImage": "https://c.saavncdn.com/493/Kesariya-Audio-Teaser-From-Brahmastra--Hindi-2022-20220414173718-500x500.jpg"
+  },
+  {
+    "id": "song_005",
+    "title": "Tum Prem Ho Tum Preet Ho",
+    "artists": ["Mohit Lalwani", "Surya Raj Kamal", "Aishwarya Anand"],
+    "album": "Tum Prem Ho Tum Preet Ho",
+    "language": ["Hindi"],
+    "categories": {
+      "genre": ["Devotional", "Bhajan", "Indian Spiritual Music"],
+      "mood": ["Peaceful", "Emotional", "Devotional", "Romantic"],
+      "theme": ["Radha Krishna", "Love", "Devotion", "Divine Love"],
+      "type": ["Vocal", "Devotional Song"],
+      "occasion": ["Janmashtami", "Prayer", "Meditation", "Spiritual Listening"]
+    },
+    "releaseYear": 2023,
+    "duration": null,
+    "audio": "/songs/tum-prem-ho-tum-preet-ho.m4a",
+    "coverImage": "https://i.scdn.co/image/ab67616d00001e02283dc1c25ba3030b0030f1bc"
+  },
+  {
+  "id": "song_006",
+  "title": "Teri Ore",
+  "artists": ["Rahat Fateh Ali Khan", "Shreya Ghoshal"],
+  "album": "Singh Is Kinng",
+  "language": ["Hindi"],
+  "categories": {
+    "genre": ["Bollywood", "Indian Film Music", "Romantic Pop"],
+    "mood": ["Romantic", "Emotional", "Melodious", "Dreamy"],
+    "theme": ["Love", "Longing", "Romance"],
+    "type": ["Vocal", "Movie Soundtrack", "Duet"],
+    "occasion": ["Romantic Evening", "Wedding", "Relaxing"]
+  },
+  "releaseYear": 2008,
+  "duration": null,
+  "audio": "/songs/teri-ore-singh-is-kinng.m4a",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4oTc4uCp8XeVexIO0GojpE0yPzQvxK2C9vm8W7kXUEw&s=10"
+},
+  {
+  "id": "song_007",
+  "title": "Sun Raha Hai Na Tu",
+  "artists": ["Ankit Tiwari"],
+  "album": "Aashiqui 2",
+  "language": ["Hindi"],
+  "categories": {
+    "genre": ["Bollywood", "Indian Film Music", "Rock Ballad"],
+    "mood": ["Emotional", "Sad", "Heartbroken", "Melancholic"],
+    "theme": ["Love", "Separation", "Heartbreak", "Longing"],
+    "type": ["Vocal", "Movie Soundtrack", "Solo"],
+    "occasion": ["Relaxing", "Emotional Listening", "Late Night Listening"]
+  },
+  "releaseYear": 2013,
+  "duration": null,
+  "audio": "/songs/sun-raha-hai-na-tu-aashiqui-2.m4a",
+  "coverImage": "https://i1.sndcdn.com/artworks-000177725532-h2zegj-t500x500.jpg"
+},
+{
+  "id": "song_008",
+  "title": "Saans",
+  "artists": ["Shreya Ghoshal", "Mohit Chauhan"],
+  "album": "Jab Tak Hai Jaan",
+  "language": ["Hindi"],
+  "categories": {
+    "genre": ["Bollywood", "Indian Film Music", "Romantic Ballad"],
+    "mood": ["Romantic", "Emotional", "Dreamy", "Peaceful"],
+    "theme": ["Love", "Romance", "Longing"],
+    "type": ["Vocal", "Movie Soundtrack", "Duet"],
+    "occasion": ["Romantic Evening", "Relaxing", "Wedding"]
+  },
+  "releaseYear": 2012,
+  "duration": null,
+  "audio": "/songs/saans-jab-tak-hai-jaan.m4a",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuLLmUNCh_G2SqJ8qNRbwUYq_tN04yMgkXmNApUtavtA&s=10"
+},
+{
+  "id": "song_009",
+  "title": "Deewani Mastani",
+  "artists": ["Shreya Ghoshal"],
+  "album": "Bajirao Mastani",
+  "language": ["Hindi", "Marathi"],
+  "categories": {
+    "genre": ["Bollywood", "Indian Classical", "Filmi", "Qawwali"],
+    "mood": ["Romantic", "Grand", "Dreamy", "Emotional"],
+    "theme": ["Love", "Devotion", "Admiration"],
+    "type": ["Vocal", "Movie Soundtrack"],
+    "occasion": ["Wedding", "Celebration", "Romantic Evening"]
+  },
+  "releaseYear": 2015,
+  "duration": null,
+  "audio": "/songs/deewani-mastani.mp3",
+  "coverImage": "https://i.scdn.co/image/ab67616d00001e026b01530825529db0bee75515"
+},
+{
+  "id": "song_010",
+  "title": "Agar Tum Mil Jao",
+  "artists": ["Shreya Ghoshal"],
+  "album": "Zeher",
+  "language": ["Hindi"],
+  "categories": {
+    "genre": ["Bollywood", "Indian Film Music", "Romantic Ballad"],
+    "mood": ["Romantic", "Sad", "Emotional", "Melancholic"],
+    "theme": ["Love", "Longing", "Separation"],
+    "type": ["Vocal", "Movie Soundtrack", "Solo"],
+    "occasion": ["Romantic Evening", "Relaxing", "Emotional Listening"]
+  },
+  "releaseYear": 2005,
+  "duration": null,
+  "audio": "/songs/agar-tum-mil-jao-zeher.m4a",
+  "coverImage": "https://a10.gaanacdn.com/gn_pl_img/playlists/XYybzNrb2g/ybzgpPV4K2/size_l_1515080725.jpg"
+},
+{
+  "id": "song_011",
+  "title": "Chikni Chameli",
+  "artists": ["Shreya Ghoshal"],
+  "album": "Agneepath",
+  "language": ["Hindi"],
+  "categories": {
+    "genre": ["Bollywood", "Filmi", "Folk Pop"],
+    "mood": ["Energetic", "Playful", "Upbeat", "Party"],
+    "theme": ["Dance", "Celebration", "Attraction"],
+    "type": ["Vocal", "Movie Soundtrack", "Dance Song"],
+    "occasion": ["Party", "Dance", "Celebration", "Wedding"]
+  },
+  "releaseYear": 2011,
+  "duration": null,
+  "audio": "/songs/chikni-chameli-agneepath.m4a",
+  "coverImage": "https://c.saavncdn.com/736/Chikni-Chameli-Hindi-2011-20200627132203-500x500.jpg"
+},
+{
+  "id": "song_012",
+  "title": "Samjhawan",
+  "artists": ["Arijit Singh", "Shreya Ghoshal"],
+  "album": "Humpty Sharma Ki Dulhania",
+  "language": ["Hindi"],
+  "categories": {
+    "genre": ["Bollywood", "Indian Film Music", "Romantic Ballad"],
+    "mood": ["Romantic", "Emotional", "Melancholic", "Peaceful"],
+    "theme": ["Love", "Longing", "Commitment"],
+    "type": ["Vocal", "Movie Soundtrack", "Duet"],
+    "occasion": ["Wedding", "Romantic Evening", "Relaxing"]
+  },
+  "releaseYear": 2014,
+  "duration": null,
+  "audio": "/songs/samjhawan-humpty-sharma-ki-dulhania.m4a",
+  "coverImage": "https://c.saavncdn.com/540/Humpty-Sharma-Ki-Dulhania-Hindi-2014-20190618095042-500x500.jpg"
+},
+{
+  "id": "song_013",
+  "title": "Manwa Laage",
+  "artists": ["Arijit Singh", "Shreya Ghoshal"],
+  "album": "Happy New Year",
+  "language": ["Hindi"],
+  "categories": {
+    "genre": ["Bollywood", "Indian Film Music", "Romantic Pop"],
+    "mood": ["Romantic", "Dreamy", "Peaceful", "Emotional"],
+    "theme": ["Love", "Romance", "Devotion"],
+    "type": ["Vocal", "Movie Soundtrack", "Duet"],
+    "occasion": ["Romantic Evening", "Wedding", "Relaxing"]
+  },
+  "releaseYear": 2014,
+  "duration": null,
+  "audio": "/songs/manwa-laage-happy-new-year.m4a",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHqM3cliTL3Bks99GHBU5qnwOz-RNxvkXqOj2zjTiesA&s=10"
+},
+{
+  "id": "song_014",
+  "title": "Ghoomar",
+  "artists": ["Shreya Ghoshal", "Swaroop Khan"],
+  "album": "Padmaavat",
+  "language": ["Hindi", "Rajasthani"],
+  "categories": {
+    "genre": ["Bollywood", "Indian Folk", "Rajasthani Folk"],
+    "mood": ["Joyful", "Festive", "Energetic", "Grand"],
+    "theme": ["Dance", "Tradition", "Celebration", "Royalty"],
+    "type": ["Vocal", "Movie Soundtrack", "Folk Dance"],
+    "occasion": ["Wedding", "Festival", "Celebration", "Traditional Dance"]
+  },
+  "releaseYear": 2018,
+  "duration": null,
+  "audio": "/songs/ghoomar-padmaavat.m4a",
+  "coverImage": "https://letsgrowmore.in/wp-content/uploads/2021/05/p4-1.jpg"
+},
+
+  {
+    "id": "song_015",
+    "title": "Kal Ho Naa Ho",
+    "artists": ["Sonu Nigam"],
+    "album": "Kal Ho Naa Ho",
+    "language": ["Hindi"],
+    "categories": {
+      "genre": ["Bollywood", "Indian Film Music", "Romantic Ballad"],
+      "mood": ["Emotional", "Romantic", "Melancholic", "Hopeful"],
+      "theme": ["Love", "Life", "Memories", "Living in the Moment"],
+      "type": ["Vocal", "Movie Soundtrack", "Solo"],
+      "occasion": ["Relaxing", "Emotional Listening", "Late Night Listening"]
+    },
+    "releaseYear": 2003,
+    "duration": null,
+    "audio": "/songs/kal-ho-naa-ho.m4a",
+    "coverImage": "https://c.saavncdn.com/587/Kal-Ho-Naa-Ho-Hindi-2003-20260120201519-500x500.jpg"
+  },
+  {
+    "id": "song_016",
+    "title": "Abhi Mujh Mein Kahin",
+    "artists": ["Sonu Nigam"],
+    "album": "Agneepath",
+    "language": ["Hindi"],
+    "categories": {
+      "genre": ["Bollywood", "Indian Film Music", "Melodic Ballad"],
+      "mood": ["Emotional", "Soulful", "Peaceful", "Inspirational"],
+      "theme": ["Life", "Hope", "Love", "Self Discovery"],
+      "type": ["Vocal", "Movie Soundtrack", "Solo"],
+      "occasion": ["Relaxing", "Emotional Listening", "Reflective Moments"]
+    },
+    "releaseYear": 2012,
+    "duration": null,
+    "audio": "/songs/abhi-mujh-mein-kahin.m4a",
+    "coverImage": "https://c.saavncdn.com/317/Agneepath-Hindi-2011-20190603132941-500x500.jpg"
+  },
+  {
+    "id": "song_017",
+    "title": "Main Agar Kahoon",
+    "artists": ["Sonu Nigam", "Shreya Ghoshal"],
+    "album": "Om Shanti Om",
+    "language": ["Hindi"],
+    "categories": {
+      "genre": ["Bollywood", "Indian Film Music", "Romantic Ballad"],
+      "mood": ["Romantic", "Dreamy", "Emotional", "Melodious"],
+      "theme": ["Love", "Admiration", "Romance"],
+      "type": ["Vocal", "Movie Soundtrack", "Duet"],
+      "occasion": ["Wedding", "Romantic Evening", "Relaxing"]
+    },
+    "releaseYear": 2007,
+    "duration": null,
+    "audio": "/songs/main-agar-kahoon.m4a",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQv5SPyOdtuZaM5v9KPVe04IwQ3igO6TTjb5PWeyVYhQw&s=10"
+  },
+  {
+    "id": "song_018",
+    "title": "Suraj Hua Maddham",
+    "artists": ["Sonu Nigam", "Alka Yagnik"],
+    "album": "Kabhi Khushi Kabhie Gham",
+    "language": ["Hindi"],
+    "categories": {
+      "genre": ["Bollywood", "Indian Film Music", "Romantic Ballad"],
+      "mood": ["Romantic", "Dreamy", "Peaceful", "Emotional"],
+      "theme": ["Love", "Romance", "Togetherness"],
+      "type": ["Vocal", "Movie Soundtrack", "Duet"],
+      "occasion": ["Romantic Evening", "Wedding", "Relaxing"]
+    },
+    "releaseYear": 2001,
+    "duration": null,
+    "audio": "/songs/suraj-hua-maddham.m4a",
+    "coverImage": "https://i.ytimg.com/vi/Ze0R1XYa92k/maxresdefault.jpg"
+  },
+  {
+    "id": "song_019",
+    "title": "Saathiya",
+    "artists": ["Sonu Nigam"],
+    "album": "Saathiya",
+    "language": ["Hindi"],
+    "categories": {
+      "genre": ["Bollywood", "Indian Film Music", "Romantic Pop"],
+      "mood": ["Romantic", "Melodious", "Emotional", "Dreamy"],
+      "theme": ["Love", "Togetherness", "Romance"],
+      "type": ["Vocal", "Movie Soundtrack", "Solo"],
+      "occasion": ["Romantic Evening", "Wedding", "Relaxing"]
+    },
+    "releaseYear": 2002,
+    "duration": null,
+    "audio": "/songs/saathiya-title-song.mp3",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwZvqu-MgcE6U_mD1nWwC5qnFg2wNVydhI6TrN4DISmg&s=10"
+  },
+  {
+    "id": "song_020",
+    "title": "Sandese Aate Hain",
+    "artists": ["Sonu Nigam", "Roop Kumar Rathod"],
+    "album": "Border",
+    "language": ["Hindi"],
+    "categories": {
+      "genre": ["Bollywood", "Indian Film Music", "Patriotic"],
+      "mood": ["Emotional", "Nostalgic", "Patriotic", "Melancholic"],
+      "theme": ["Patriotism", "Soldiers", "Family", "Separation"],
+      "type": ["Vocal", "Movie Soundtrack", "Duet"],
+      "occasion": ["Independence Day", "Republic Day", "Patriotic Events", "Emotional Listening"]
+    },
+    "releaseYear": 1997,
+    "duration": null,
+    "audio": "/songs/sandese-aate-hain-border.mp3",
+    "coverImage": "https://c.saavncdn.com/040/Sandese-Aate-Hai-Lo-Fi-Remix-Hindi-2023-20230808105634-500x500.jpg"
+  },
+  {
+    "id": "song_021",
+    "title": "Do Pal",
+    "artists": ["Lata Mangeshkar", "Sonu Nigam"],
+    "album": "Veer-Zaara",
+    "language": ["Hindi"],
+    "categories": {
+      "genre": ["Bollywood", "Indian Film Music", "Romantic Ballad"],
+      "mood": ["Romantic", "Emotional", "Melancholic", "Dreamy"],
+      "theme": ["Love", "Separation", "Longing", "Memories"],
+      "type": ["Vocal", "Movie Soundtrack", "Duet"],
+      "occasion": ["Romantic Evening", "Relaxing", "Emotional Listening"]
+    },
+    "releaseYear": 2004,
+    "duration": null,
+    "audio": "/songs/do-pal-veer-zaara.m4a",
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-c_rfCZ_jmqJat2pmNyFedLBAkxiLKtQjcUZ9myTiZA&s=10"
   }
+
 ]
